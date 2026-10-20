@@ -1,0 +1,11 @@
+{
+  "skills": [
+    {
+      "name": "hfpca",
+      "description": "Principal component analysis (PCA) for high-frequency time-series data, as proposed in A\u00eft-Sahalia and Xiu (2019). Use when writing Python code that uses the hfpca package.",
+      "files": [
+        "SKILL.md"
+      ]
+    }
+  ]
+}

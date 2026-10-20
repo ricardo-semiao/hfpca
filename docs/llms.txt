@@ -1,0 +1,20 @@
+# hfpca
+
+> Principal component analysis (PCA) for high-frequency time-series data, as proposed in Aït-Sahalia and Xiu (2019).
+
+## Docs
+
+### API Reference
+
+#### Main function
+> Run the high-frequency PCA algorithm
+
+- [pca_high_freq](reference/pca_high_freq.html): Run high-frequency PCA on a data matrix
+- [pca_start_evectors](reference/pca_start_evectors.html): Calculate the starting eigenvectors for the high-frequency PCA routine
+
+#### Analysis functions
+> Analyze the results
+
+- [plot_loadings](reference/plot_loadings.html): Plot the loading contribution between variables and principal components over time
+- [plot_pcs](reference/plot_pcs.html): Plot the principal component trajectories colored by explained variance
+- [quantiles_cut](reference/quantiles_cut.html): Compute the fraction of values above the PCA cutoff per feature

@@ -1,0 +1,47 @@
+
+/* :root {
+    --green: #00b894;
+    --orange: #fd7e14;
+    --darkgreen: #2d3436;
+    --darkgray: #636e72;
+} */
+
+/* Header: */
+#quarto-header {
+    border-bottom: 4px solid var(--orange);
+}
+
+#quarto-header .navbar {
+    background-color: white !important;
+}
+
+#quarto-header * {
+    font-size: 1.3rem;
+    line-height: 1;
+    font-family: "Montserrat", sans-serif;
+}
+
+#quarto-header a, .navbar-title {
+    font-weight: normal !important;
+    color: var(--green) !important;
+}
+
+.nav-link.active {
+    text-decoration: none !important;
+}
+.nav-link.active span {
+    font-weight: bold !important;
+}
+
+#quarto-header .navbar-brand-container.mx-auto .rssite-rsgreatdocs {
+    margin-right: var(--bs-navbar-brand-margin-end);
+}
+
+
+/* Footer: */
+footer .nav-footer {
+    background-color: var(--darkgreen);
+}
+footer * {
+    color: var(--darkgray); 
+}
